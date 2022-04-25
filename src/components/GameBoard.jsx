@@ -101,6 +101,7 @@ export default function GameBoard({ gameMode, correctGuessCount, setCorrectGuess
         status: 'error',
         duration: 3000,
         isClosable: true,
+        position: 'bottom-left',
       });
     }
   };

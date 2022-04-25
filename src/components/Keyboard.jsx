@@ -11,9 +11,9 @@ const enterIcon = <Icon as={AiOutlineEnter} />;
 const backSpaceIcon = <Icon as={BsBackspace} />;
 
 const keyboardRows = [
-  ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P'],
-  ['A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L'],
-  [enterIcon, 'Z', 'X', 'C', 'V', 'B', 'N', 'M', backSpaceIcon],
+  ['A', 'Z', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P'],
+  ['Q', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'M'],
+  [enterIcon, 'W', 'X', 'C', 'V', 'B', 'N', backSpaceIcon],
 ];
 
 export default function Keyboard(props) {
